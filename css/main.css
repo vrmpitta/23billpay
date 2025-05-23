@@ -1,0 +1,83 @@
+
+body { font-family: Arial, sans-serif; line-height: 1.6; margin: 0; padding: 0; background: #f9f9f9; }
+
+header, footer { background: #77777a; color: #fff; padding: 10px 20px; text-align: center; }
+
+nav { background: #77777a; padding: 10px 20px; text-align: center; }
+
+nav a { color: #fff; margin: 0 15px; text-decoration: none; }
+
+main { padding: 20px; background: #fff; padding-left: 30px;}
+
+section { margin-bottom: 20px; }
+
+form { display: flex; flex-direction: column; gap: 10px; }
+
+input, textarea { padding: 10px; border: 1px solid #ccc; border-radius: 5px; }
+
+button { padding: 10px; background: #77777a; color: #fff; border: none; border-radius: 5px; cursor: pointer; }
+
+button:hover { background: #a6a6ab; }
+
+.disclaimer{
+  border-top: 1px solid black;
+}
+
+    .cookiesBanner {
+      background: rgba(30, 30, 30, .75);
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 3rem;
+      text-align: center;
+      z-index: 1000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .cookiesBanner .wrapper-cookies {
+      display: flex;
+      align-items: center;
+  }
+  .cookiesBanner .wrapper-cookies .description {
+      max-width: 760px;
+      color: #fff;
+      margin-right: 0.5rem;
+  }
+  .description a {
+      color: #5be989;
+      text-decoration: underline;
+  }
+  .cookiesBanner .wrapper-cookies .okButton {
+      margin-left: 1rem;
+  }
+  .orangeButton:hover{
+    background-color: #a6a6ab;
+  }
+  .orangeButton {
+      border: 0;
+      background: #77777a;
+      color: white;
+      border-radius: 5px;
+      -moz-border-radius: 5px;
+      -webkit-border-radius: 5px;
+      -ms-border-radius: 5px;
+      -o-border-radius: 5px;
+      display: inline-block;
+      font-family: inherit;
+      margin: 0;
+      padding: 6px 15px;
+      cursor: pointer;
+      position: relative;
+      outline: 0 none;
+      text-align: center;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      -ms-appearance: none;
+      -o-appearance: none;
+      appearance: none;
+      vertical-align: top;
+      text-decoration: none;
+      font-weight: 700;
+  }
